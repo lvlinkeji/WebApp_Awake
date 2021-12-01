@@ -44,3 +44,10 @@ jobs:
           sudo wget --no-check-certificate -qO- lvlinapp3.herokuapp.com
           sudo wget --no-check-certificate -qO- lvlinapp4.herokuapp.com
           sudo wget --no-check-certificate -qO- lvlinapp5.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin01.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin02.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin03.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin04.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin05.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin06.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlin07.herokuapp.com
