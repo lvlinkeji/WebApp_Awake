@@ -32,15 +32,15 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           sudo apt-get install -y wget
-          sudo wget -qO- myresearch2-production.up.railway.app
-          sudo wget -qO- myresearch2-production-8946.up.railway.app
-          sudo wget -qO- myresearch2-production-2327.up.railway.app
-          sudo wget -qO- myresearch2-production-b8d4.up.railway.app
-          sudo wget -qO- myresearch2-production-b866.up.railway.app
-          sudo wget -qO- myresearch2-production-499e.up.railway.app
-          sudo wget -qO- myresearch2-production-970f.up.railway.app
-          sudo wget -qO- lvlinapp1.herokuapp.com
-          sudo wget -qO- lvlinapp2.herokuapp.com
-          sudo wget -qO- lvlinapp3.herokuapp.com
-          sudo wget -qO- lvlinapp4.herokuapp.com
-          sudo wget -qO- lvlinapp5.herokuapp.com
+          sudo wget --no-check-certificate -qO- myresearch2-production.up.railway.app
+          sudo wget --no-check-certificate -qO- myresearch2-production-8946.up.railway.app
+          sudo wget --no-check-certificate -qO- myresearch2-production-2327.up.railway.app
+          sudo wget --no-check-certificate -qO- myresearch2-production-b8d4.up.railway.app
+          sudo wget --no-check-certificate -qO- myresearch2-production-b866.up.railway.app
+          sudo wget --no-check-certificate -qO- myresearch2-production-499e.up.railway.app
+          sudo wget --no-check-certificate -qO- myresearch2-production-970f.up.railway.app
+          sudo wget --no-check-certificate -qO- lvlinapp1.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlinapp2.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlinapp3.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlinapp4.herokuapp.com
+          sudo wget --no-check-certificate -qO- lvlinapp5.herokuapp.com
