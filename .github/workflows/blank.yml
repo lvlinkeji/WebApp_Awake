@@ -12,44 +12,234 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  wakeup_1:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
       - name: Run a multi-line script
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-          sudo apt-get install -y curl ca-certificates
-          sudo curl --silent --show-error --fail myresearch2-production.up.railway.app
-          sudo curl --silent --show-error --fail myresearch2-production-8946.up.railway.app
-          sudo curl --silent --show-error --fail myresearch2-production-2327.up.railway.app
-          sudo curl --silent --show-error --fail myresearch2-production-b8d4.up.railway.app
-          sudo curl --silent --show-error --fail myresearch2-production-b866.up.railway.app
-          sudo curl --silent --show-error --fail myresearch2-production-499e.up.railway.app
-          sudo curl --silent --show-error --fail myresearch2-production-970f.up.railway.app
-          sudo curl --silent --show-error --fail lvlinapp1.herokuapp.com
-          sudo curl --silent --show-error --fail lvlinapp2.herokuapp.com
-          sudo curl --silent --show-error --fail lvlinapp3.herokuapp.com
-          sudo curl --silent --show-error --fail lvlinapp4.herokuapp.com
-          sudo curl --silent --show-error --fail lvlinapp5.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin01.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin02.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin03.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin04.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin05.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin06.herokuapp.com
-          sudo curl --silent --show-error --fail lvlin07.herokuapp.com
-          sudo curl --silent --show-error --fail cdnh1.lvlin.workers.dev
-          sudo curl --silent --show-error --fail cdnr1.lvlin.workers.dev
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production.up.railway.app
+  wakeup_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production-8946.up.railway.app
+  wakeup_3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production-2327.up.railway.app
+  wakeup_4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production-b8d4.up.railway.app
+  wakeup_5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production-b866.up.railway.app
+  wakeup_6:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production-499e.up.railway.app
+  wakeup_7:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail myresearch2-production-970f.up.railway.app
+  wakeup_8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlinapp1.herokuapp.com
+  wakeup_9:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlinapp2.herokuapp.com
+  wakeup_10:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlinapp3.herokuapp.com
+  wakeup_11:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlinapp4.herokuapp.com
+  wakeup_12:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlinapp5.herokuapp.com
+  wakeup_13:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin01.herokuapp.com
+  wakeup_14:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin02.herokuapp.com
+  wakeup_15:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin03.herokuapp.com
+  wakeup_16:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin04.herokuapp.com
+  wakeup_17:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin05.herokuapp.com
+  wakeup_18:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin06.herokuapp.com
+  wakeup_19:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail lvlin07.herokuapp.com
+  wakeup_20:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail cdnh1.lvlin.workers.dev
+  wakeup_21:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Run a multi-line script
+        run: |
+         sudo apt-get install -y curl ca-certificates
+         sudo curl --silent --show-error --fail cdnr1.lvlin.workers.dev
