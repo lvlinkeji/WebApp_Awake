@@ -51,3 +51,5 @@ jobs:
           sudo wget --no-check-certificate -qO- lvlin05.herokuapp.com
           sudo wget --no-check-certificate -qO- lvlin06.herokuapp.com
           sudo wget --no-check-certificate -qO- lvlin07.herokuapp.com
+          sudo wget --no-check-certificate -qO- cdnh1.lvlin.workers.dev
+          sudo wget --no-check-certificate -qO- cdnr1.lvlin.workers.dev
